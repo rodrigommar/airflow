@@ -1,0 +1,36 @@
+venv/
+logs/
+.env
+__pycache__/
+standalone_admin_password.txt
+
+
+# Arquivos de configuração pessoais
+airflow_home/airflow.cfg
+
+# Arquivos temporários e de cache
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs e diretórios de registro
+logs/
+*.log
+
+# Arquivos específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais e pacotes Python
+venv/
+env/
+*.env
+*.venv
+env.bak/
+env1/
+env2/
+.python-version
+
+# Outros
+.idea/
+.vscode/
